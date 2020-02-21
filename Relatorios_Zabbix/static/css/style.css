@@ -1,0 +1,132 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+	font-family: monospace;
+    font-weight: bold;
+}
+
+#sidebar ul li a {
+    display: block;
+	margin-top: -146px; 
+	font-size: 70%;
+}
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+	padding-left: 60px;
+	font-weight: bold;
+}
+
+#menus {
+margin-top: -146px; 
+padding-right: 9px;
+font-size: 98%;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #002958;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #002958;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+ul{
+    margin-top:150px;
+    list-style: none;
+    display: block;
+}
+
+li{
+    width: 100%;
+    height:50px;
+	//border-bottom: 1px solid #323232;
+    overflow: hidden;
+}
+
+p.menu{
+    position: relative;
+    padding:16px;
+    padding-right: 25px;
+    float:right;
+    color:white;
+    font-size: 1.2em;
+    -webkit-transition: opacity .2s;
+}
+
+
+
+li:hover div.barra{
+    width:250px;
+}
+
+li:hover p.menu{
+    opacity: 1;
+}
+
+
+div.barra{
+    position: absolute;
+	left: 0px;
+    height: 50px;
+    width: 0px;
+    background-color: #aaa;
+    opacity: .2;
+    -webkit-transition: width .2s;
+}
+
+/*
+#scroll {
+	width:900px;
+	height:710px;
+	overflow:100%;
+
+}*/
+
+.modal .btn {
+	border-radius: 0px;
+	min-width: 80px;
+}
+
+hr {
+    display: block;
+    border-top: 1px solid #fff;
+    width: 85%;
+}
+
+#submit{
+    color: white;
+    background-color: #002958;
+}
